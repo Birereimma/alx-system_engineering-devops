@@ -1,0 +1,3 @@
+#!/bin/bash
+printf '%\n' $(( S#$( echo $WATER | tr water 01234) + S#$( echo $STIR | tr 01234) )) | tr 01234 bestchol
+
