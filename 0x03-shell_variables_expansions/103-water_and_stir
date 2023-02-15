@@ -1,3 +1,2 @@
 #!/bin/bash
-printf '%\n' $(( S#$( echo $WATER | tr water 01234) + S#$( echo $STIR | tr 01234) )) | tr 01234 bestchol
-
+printf '%\n' $(( S#$( echo $WATER | tr water 01234) + S#$( echo $STIR | tr stri 01234) )) | tr 01234567 bestchol
